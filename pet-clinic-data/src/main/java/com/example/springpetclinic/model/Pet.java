@@ -10,7 +10,7 @@ import java.time.LocalDate;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Pet {
+public class Pet extends BaseEntity{
 
 
     private String name;
