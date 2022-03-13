@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>spring-pet-clinic</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4-SNAPSHOT</version>
     <name>spring-pet-clinic</name>
     <description>spring-pet-clinic</description>
     <properties>
@@ -42,6 +42,6 @@
     </build>
     <scm>
         <developerConnection>scm:git:https://github.com/rajeshtechstack/spring-boot-examples.git</developerConnection>
-    <tag>spring-pet-clinic-0.0.3</tag>
+    <tag>spring-pet-clinic-0.0.2</tag>
   </scm>
 </project>
