@@ -41,7 +41,6 @@
         </plugins>
     </build>
     <scm>
-        <developerConnection>scm:git:https://github.com/rajeshtechstack/spring-boot-examples.git</developerConnection>
-        <tag>HEAD</tag>
+        <developerConnection>scm:git:https://github.com/rajeshtechstack/spring-boot-examples.gitmv</developerConnection>
   </scm>
 </project>
