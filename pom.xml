@@ -43,5 +43,6 @@
     <scm>
         <url>https://github.com/rajeshtechstack/spring-boot-examples</url>
         <connection>scm:git:https://github.com/rajeshtechstack/spring-boot-examples.git</connection>
+        <tag>HEAD</tag>
   </scm>
 </project>
