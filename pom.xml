@@ -41,7 +41,7 @@
         </plugins>
     </build>
     <scm>
-        <developerConnection>scm:git:https://github.com/rajeshtechstack/spring-boot-examples.gitmv</developerConnection>
+        <developerConnection>scm:git:https://github.com/rajeshtechstack/spring-boot-examples.git</developerConnection>
     <tag>spring-pet-clinic-0.0.2</tag>
   </scm>
 </project>
