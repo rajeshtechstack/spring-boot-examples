@@ -1,0 +1,6 @@
+
+com:
+ example:
+  username: rajesh_dev_yml
+  password: dev@123_yml
+  jdbcUrl : devUrl_yml
