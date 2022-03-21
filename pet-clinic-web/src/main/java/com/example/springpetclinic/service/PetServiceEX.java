@@ -1,5 +1,5 @@
 package com.example.springpetclinic.service;
 
-public interface PetService {
+public interface PetServiceEX {
     String getPetType();
 }

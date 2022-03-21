@@ -1,6 +1,8 @@
 package com.example.springpetclinic.config;
 
 import com.example.springpetclinic.datasource.SampleDatasource;
+import com.example.springpetclinic.service.PetService;
+import com.example.springpetclinic.service.map.PetServiceMap;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -30,5 +32,10 @@ public class SampleConfig {
         sampleDatasource.setPassword(sampleConstructorBinding.getPassword());
         sampleDatasource.setJdbcUrl(sampleConstructorBinding.getJdbcUrl());
         return sampleDatasource;
+    }
+    @Bean("petService")
+    PetService getPetService(){
+        PetService petServic = new PetServiceMap();
+        return petServic;
     }
 }
